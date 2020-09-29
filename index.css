@@ -1,0 +1,245 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Secular One', sans-serif;
+}
+
+.background {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url("WalterMireku2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: rgba(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+}
+
+.bg-text {
+    padding-top: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-text {
+    font-size: 3rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+.contact-button {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.contact-button > a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact-button:hover {
+    color: white;
+    background-color: darkgray;
+    transition: ease-in-out 0.3s;
+}
+
+.work-experience {
+    margin-top: 100px;
+}
+
+.experience {
+}
+
+#copyright {
+    text-align: center;
+}
+
+.work-image {
+    border: lightgrey 2px solid;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+.first {
+}
+
+.second {
+    padding-top: 25px;
+}
+
+#ymca {
+    padding-top: 15px;
+}
+
+.icons {
+    padding: 50px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: black;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+    color: darkgray;
+}
+
+.projects {
+    margin-top: 50px;
+}
+
+.code {
+    margin-top: 5px;
+}
+
+.code > span > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+}
+
+.code > span > a:hover {
+    transform: scale(2);
+    transition: ease-in-out .3s;
+    color: black;
+}
+
+.project-button {
+    text-decoration: none;
+}
+
+.project-button:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+}
+
+.project-button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    height: 50%;
+}
+
+#resume {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#resume > a {
+    text-decoration: none;
+    color: black;
+}
+
+#resume:hover {
+    background-color: lightgray;
+    transition: ease-in-out .4s;
+}
+
+/*
+.ideaocean figure{
+    background: darkgray;
+}
+
+.ideaocean > #ideaocean {
+    opacity: 1;
+}
+
+.ideaocean:hover > #ideaocean {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    background-color: darkgray;
+}
+*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .image:hover .overlay {
+    opacity: 0.8;
+  }
+
+  /*
+  .overlay:hover {
+      background-color: darkgray;
+      width: 100%;
+      height: 100%;
+  }
+*/  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 1%;
+    text-align: center;
+  }
+
+  
+
+@media only screen and (max-width: 500px) {
+    .header-text {
+        font-size:1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-text {
+        font-size:0.75rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-text {
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    #contact-description {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .col-lg-4 {
+        margin-bottom: 50px;
+    }
+
+    .col-lg-3 {
+        margin-bottom: 20px;
+        padding: 0 70px;
+    }
+}
+
