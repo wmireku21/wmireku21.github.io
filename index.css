@@ -21,8 +21,7 @@ h1, h2, h3, h4, h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about {
-}
+
 
 .bg-text {
     padding-top: 100px;
@@ -200,21 +199,10 @@ h1, h2, h3, h4, h5 {
 
   
 
-@media only screen and (max-width: 500px) {
-    .header-text {
-        font-size:1rem;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .header-text {
-        font-size:0.75rem;
-    }
-}
 
 @media only screen and (max-width: 1000px) {
-    .header-text {
-        font-size:1rem;
+    .bg-text > .header-text {
+        font-size:2rem;
     }
 }
 
